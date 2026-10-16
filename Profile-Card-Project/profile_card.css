@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    color: rgb(211, 102, 47);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    height:70vh;
+    width:60vw;
+    background-color: rgba(12, 12, 12, 0.966);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20%;
+}
+
+
+
+img{
+    height: 40%;
+    width: 40%;
+    border:2px solid rgb(215, 97, 33);
+    border-radius:50%;
+}
+
+.element{
+    margin-top:6px;
+}
+
+p{
+    text-align: center;
+    color: rgba(240, 248, 255, 0.741);
+}
+
+.skills-header{
+    align-self: flex-start;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.skills{
+    width:100%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.skill{
+    background-color: rgba(210, 99, 30, 0.701);
+    color:white;
+    border-radius: 30%;
+    padding:0.2rem;
+    border-style: dotted;
+}
+
+
+.hire-button{
+    background-color: rgb(211, 102, 47);
+    color:rgb(231, 230, 230);
+    padding:3px;
+    margin: top 3px;
+    border-radius: 50%;
+    height:40px;
+    width: 80px;
+}
+
+.hire-button:hover{
+    background-color:rgba(233, 197, 144, 0.81) ;
+}
